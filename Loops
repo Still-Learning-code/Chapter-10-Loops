@@ -1,0 +1,26 @@
+//chp 10 Loops
+fun main(args: Array<String>) {
+
+ val fruits = arrayOf("Apple", "Banana", "Pear", "Grape") //for in loop
+   for (item in fruits) {
+   //println(item)
+ }
+  for((index,item) in fruits.withIndex()) { //creates index and value
+   println("item at index $index is $item")
+  }
+  var i = 10
+  while (i > 5) {
+   println(i)
+   i--  //post decrement returns value 1st before decrementing
+  }
+  i = 10
+  do {
+   println(i)
+   i--
+  } while (i > 5)
+
+ // while (true) {
+  // println(i)
+ // }
+
+ }
